@@ -1,0 +1,109 @@
+body {
+	background: #edf1f1;
+	font: 16px/1.2 'Avenir Next', 'Helvetica Neue', Arial, sans-serif;
+}
+em { font-weight: bold; font-style: normal; }
+span.info, span.infoEmail { padding-left: 10px; }
+span.info { text-transform: capitalize; }
+.successMSG { font-style: italic; color: #27ae60;}
+ #wrap {
+	 width: 50%;
+	 margin: 0 auto;
+	 padding: 2em 1em;
+	 background: #fff;
+ }
+ h1 {
+	 text-align: center;
+ }
+ form {
+	 width: 95%;
+	 position: relative;
+	 margin: 0 auto;
+	 padding: 0.8em;
+	 line-height: 1.5em;
+ }
+ form input {
+	 width: 40%;
+	 float:left;
+	 color: #555;
+	 font-size: 0.85em;
+	 padding: 0.5em;
+	 margin-top: 0;
+	 margin-bottom: 0.5em;
+	 border: solid #edf1f1 thin;
+ }
+input#firstName, input#lastName {
+	margin-right: 1em;
+}
+input#firstName, input#lastName, input#birthYear { float: left; }
+div.name:after {
+	content: "";
+	display: inline-table;
+	clear: both;
+}
+div.clear {clear:both;}
+input#birthYear{ width: 55px; }
+select {
+	width: 116px;
+	float: left;
+	color: #555;
+	font-size: 0.85em;
+	padding: 0.5em;
+	margin-right: 1em;
+	margin-left: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	-webkit-appearance: button;
+	-webkit-border-radius: 1px;
+	-webkit-padding-end: 20px;
+	-webkit-padding-start: 2px;
+	-webkit-user-select: none;
+	 border: solid #edf1f1 thin;
+	background: #fff url(http://i62.tinypic.com/15xvbd5.png) 90% center no-repeat;
+ }
+select#birthMonth { margin-left: 0; }
+#submit input, #login input{
+	 clear: both;
+	 background: #27ae60;
+	 color: white;
+	 padding: 0.7em;
+	 display: block;
+	 font-size: 0.9em;
+ }
+ #userLogin, #userPass {
+	clear: both;
+	width: 50%;
+	color: #555;
+	font-size: 0.85em;
+	padding: 0.5em;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+	border: solid #edf1f1 thin;
+ }
+ 
+.error p {
+	 color: #e74c3c;
+	 font-size: normal;
+	 font-size: 0.8em;
+ }
+.error p.fnError, .error p.lnError {
+	 float: left;
+	 width: 200px;
+	 border: solid red thin;
+	 margin-right: 1em;
+	 margin-left: 0;
+ }
+.error p.lnError { margin-left: 5px; }
+.error p.emailError, .error p.passError, .error p.loginError {
+	 float: left;
+	 width: 200px;
+	 margin-top: 0;
+	 margin-left: 1em;
+ }
+ .error p.yearError {
+	 clear: both;
+	 margin-left: 260px;
+	 border: solid red thin;
+ }
+ 

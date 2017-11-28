@@ -1,2 +1,2 @@
-# Registration
-# Registration
+Creating a registration and login form using php.
+ 

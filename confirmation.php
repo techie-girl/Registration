@@ -1,4 +1,8 @@
 <?php
+/*original code by gabriella M.; modified and completed by Arazoo Hoseyni*/
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 // We start a PHP Session since we need to use the values from our registration form
 // we will display the values to the user as a 'confrimation page' and use them
@@ -45,10 +49,12 @@ echo '<p class="successMSG">Successfully registered user</p>';
 <html lang="en">
 <head>
 	  <meta charset="utf-8">
-	  <title>Confirmation</title>
-	  <meta name="description" content="Title of Site">
-	  <meta name="author" content="Author Name">
-	  <link rel="stylesheet" href="css/styles.css">
+	  <title>CSCI 3172-- Assignment4 </title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta charset="utf-8">
+	  <meta name="Arazoo" content="Assignment 4 confirmation">
+	  <link rel="stylesheet" href="css/normalize.css">
+	  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div id="wrap">
